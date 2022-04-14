@@ -21,6 +21,7 @@ class _loginPageState extends State<LoginPage> {
       padding: EdgeInsets.all(30),
       alignment: Alignment.center,
       child: Column(mainAxisAlignment: MainAxisAlignment.center, crossAxisAlignment: CrossAxisAlignment.center, mainAxisSize: MainAxisSize.min, children: <Widget>[
+        Padding(padding: EdgeInsets.all(50)),
         Text("Sign In", textAlign: TextAlign.center, style: TextStyle(color: Colors.black87, fontSize: 25.0, fontWeight: FontWeight.bold)),
         _formBuilder(),
       ]),
@@ -156,6 +157,7 @@ class _signUpPageState extends State<SignUpPage> {
       padding: EdgeInsets.all(30),
       alignment: Alignment.center,
       child: Column(mainAxisAlignment: MainAxisAlignment.center, crossAxisAlignment: CrossAxisAlignment.center, mainAxisSize: MainAxisSize.min, children: <Widget>[
+        Padding(padding: EdgeInsets.all(50)),
         Text("Sign Up", textAlign: TextAlign.center, style: TextStyle(color: Colors.black87, fontSize: 25.0, fontWeight: FontWeight.bold)),
         _formBuilder(),
       ]),
