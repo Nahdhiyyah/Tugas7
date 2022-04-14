@@ -289,6 +289,9 @@ class Thanks extends StatelessWidget {
           "Karena anda telah login",
           style: TextStyle(fontSize: 15),
         )
+        ElevatedButton(
+          child: Text("LogOut")
+        )
       ])),
     );
   }
