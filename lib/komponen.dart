@@ -293,7 +293,7 @@ class Thanks extends StatelessWidget {
           padding: EdgeInsets.all(10),
           child: Container(
             height: 45,
-            width: 300,
+            width: 200,
             child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
                   primary: Colors.black,
