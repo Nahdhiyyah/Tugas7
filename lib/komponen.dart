@@ -281,7 +281,7 @@ class Thanks extends StatelessWidget {
     return Scaffold(
       body: Container(
           child: Column(children: [
-        Padding(padding: EdgeInsets.all(150)),
+        Padding(padding: EdgeInsets.all(120)),
         Center(
           child: Text("Terimakasih", textAlign: TextAlign.center, style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 25)),
         ),
