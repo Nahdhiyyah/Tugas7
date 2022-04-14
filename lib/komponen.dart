@@ -288,10 +288,27 @@ class Thanks extends StatelessWidget {
         Text(
           "Karena anda telah login",
           style: TextStyle(fontSize: 15),
-        )
-        ElevatedButton(
-          child: Text("LogOut")
-        )
+        ),
+        Padding(
+          padding: EdgeInsets.all(10),
+          child: Container(
+            height: 45,
+            width: 300,
+            child: ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  primary: Colors.black,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: new BorderRadius.circular(25),
+                  ),
+                ),
+                child: Text("Logout"),
+                onPressed: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context) {
+                    return LoginPage();
+                  }));
+                }),
+          ),
+        ),
       ])),
     );
   }
